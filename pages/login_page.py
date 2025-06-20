@@ -7,7 +7,8 @@ class LoginPage(BasePage):
     PASSWORD = (By.ID, "password")
     LOGIN_BUTTON = (By.ID, "submit")
 
-    def login(self):
-        self.send_keys(self.USERNAME, config.USERNAME)
-        self.send_keys(self.PASSWORD, config.PASSWORD)
+    def login(self, username, password):
+        """Logs in to the application with provided username and password."""
+        self.send_keys(self.USERNAME, username)
+        self.send_keys(self.PASSWORD, password)
         self.click(self.LOGIN_BUTTON)
