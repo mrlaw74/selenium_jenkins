@@ -1,0 +1,9 @@
+*.exe
+*.zip
+*.tar.gz
+*.log
+venv/
+*.pyc
+__pycache__/
+*.html
+*.css
