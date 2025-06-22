@@ -1,4 +1,6 @@
 URL = "https://practicetestautomation.com/practice-test-login/"
+EXCEPTION_URL = "https://practicetestautomation.com/practice-test-exceptions/"
+
 USERNAME_TRUE = "student"
 PASSWORD_TRUE = "Password123"
 
